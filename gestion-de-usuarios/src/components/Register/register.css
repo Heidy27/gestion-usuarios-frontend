@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Evitar desplazamiento innecesario */
+}
+
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Uso de vh para que ocupe toda la altura de la ventana */
+  width: 100vw; /* Uso de vw para que ocupe toda la anchura de la ventana */
+  background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.form-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-container h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.login-btn {
+  background-color: #667eea;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.login-btn:hover {
+  background-color: #5867c3;
+}
+
+.register-btn {
+  background-color: #9a7fd1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.register-btn:hover {
+  background-color: #8a6bb9;
+}
+.password-input {
+  position: relative;
+}
+
+.toggle-password-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1; /* Asegurar que el icono esté encima del campo de entrada */
+}
+
+.toggle-password-icon svg {
+  width: 24px; /* Ajustar el tamaño del icono según sea necesario */
+  height: 24px;
+  fill: #ccc; /* Color del icono cuando está inactivo */
+}
+
+.toggle-password-icon.visible svg {
+  fill: #333; /* Color del icono cuando está activo */
+}

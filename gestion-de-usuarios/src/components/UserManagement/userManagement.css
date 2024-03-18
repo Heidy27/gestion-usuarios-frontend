@@ -1,0 +1,60 @@
+.container {
+  align-items: center; /* Centra el contenido horizontalmente */
+  padding: 20px;
+  margin: 20px; /* Agregar margen para separar del borde */
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para la tabla */
+/* Estilos para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center; /* Centrar el contenido horizontalmente */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para los botones */
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el botón de eliminar */
+.delete-button {
+  background-color: #f44336; /* Rojo */
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Rojo oscuro al pasar el cursor */
+}
+
+/* Estilos para el botón de editar */
+.edit-button {
+  background-color: #ffc107; /* Amarillo */
+  color: #333; /* Color de texto oscuro para contraste */
+}
+
+.edit-button:hover {
+  background-color: #ffb300; /* Amarillo oscuro al pasar el cursor */
+}

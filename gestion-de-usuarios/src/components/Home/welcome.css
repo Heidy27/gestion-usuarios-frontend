@@ -1,0 +1,24 @@
+.welcome-container {
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.welcome-container h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.welcome-container p {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}

@@ -1,0 +1,97 @@
+.container {
+  padding: 5%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #f5f5f5;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 5px 10px;
+  color: #337ab7;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.page-link:hover,
+.page-link:focus {
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+.page-link {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.page-link svg {
+  fill: #007bff;
+  width: 20px;
+  height: 20px;
+}
+
+.page-link:hover svg {
+  fill: #0056b3;
+}
+.pagination span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}

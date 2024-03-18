@@ -1,0 +1,87 @@
+.edit-user-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 80%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.edit-user-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos del encabezado del modal */
+.edit-user-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.edit-user-modal-header h2 {
+  margin: 0;
+}
+
+.edit-user-modal-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+}
+
+/* Estilos del cuerpo del modal */
+.edit-user-modal-body {
+  margin-bottom: 20px;
+}
+
+.edit-user-modal-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Estilos del pie del modal */
+.edit-user-modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-user-modal-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.edit-user-modal-button:last-child {
+  margin-left: 0;
+  background-color: #dc3545; /* Cambia el color del botón Cancelar */
+}
+
+.edit-user-modal-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-user-modal-button:last-child:hover {
+  background-color: #c82333; /* Cambia el color del botón Cancelar al hacer hover */
+}
