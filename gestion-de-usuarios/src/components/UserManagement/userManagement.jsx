@@ -1,6 +1,5 @@
 // userManagement.jsx
 import React, { useState, useEffect } from "react";
-import Modal from "react-modal";
 import EditUserModal from "../Crud/editUserModal";
 import CreateUserModal from "../Crud/createUserModal";
 import "./userManagement.css";
@@ -156,8 +155,8 @@ function UserManagement() {
             <th>Email</th>
             <th>Teléfono</th>
             <th>Nombre de Usuario</th>
-            <th>Acciones</th>
             <th>Pais</th>
+            <th>Acciones</th>
           </tr>
         </thead>
         <tbody>
